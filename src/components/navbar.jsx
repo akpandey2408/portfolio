@@ -8,7 +8,7 @@ const navItems = [
 
   { newTab: false, href: "/", label: "Home" },
   { newTab: false, href: "/projects", label: "Projects" },
-  { newTab: false, href: "/#contact", label: "Contact" },
+  { newTab: false, href: "https://utfs.io/", label: "Resume" }
 ];
 
 export const Navbar = () => {
@@ -32,7 +32,7 @@ export const Navbar = () => {
             ) : (
               <Avatar>
                 <AvatarImage src={""} alt="avatar" />
-                <AvatarFallback>AJ</AvatarFallback>
+                <AvatarFallback>AKP</AvatarFallback>
               </Avatar>
             )}
           </div>
