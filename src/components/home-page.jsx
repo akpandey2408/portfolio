@@ -8,7 +8,7 @@ export function Home() {
         <div className="flex flex-col gap-y-2 items-center">
           <img
             src={
-              "https://utfs.io/f/LFq4wqmLqN4UPtCFpAxs02fjedP6AM3GOoWLUcRtar8iKQBb"
+              "https://utfs.io/f/LFq4wqmLqN4UT3bzz7XCnSDlgoKJb0NBcVAfeE9iUFRPhIO5"
             }
             alt="avatar"
             width={100}

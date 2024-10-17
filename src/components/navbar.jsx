@@ -31,7 +31,7 @@ export const Navbar = () => {
               <LucideMail size={24} />
             ) : (
               <Avatar>
-                <AvatarImage src={""} alt="avatar" />
+                <AvatarImage src={"https://utfs.io/f/LFq4wqmLqN4UT3bzz7XCnSDlgoKJb0NBcVAfeE9iUFRPhIO5"} alt="avatar" />
                 <AvatarFallback>AKP</AvatarFallback>
               </Avatar>
             )}
