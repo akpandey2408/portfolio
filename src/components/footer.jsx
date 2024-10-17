@@ -13,7 +13,7 @@ export const FooterComponent = () => {
       <Separator className="bg-white/40" />
       <footer className="flex flex-col items-center justify-center h-36 text-foreground gap-y-4 bg-transparent">
         <div className="space-x-2">
-          <a href={"https://linkedin.com/adamya"} target="_blank">
+          <a href={"https://www.linkedin.com/in/adamya-kumar-pandey-6a847521b/"} target="_blank">
             <Button className="" size={"icon"} variant={"secondary"}>
               <LinkedInLogoIcon className="w-6 h-6 " />
             </Button>
