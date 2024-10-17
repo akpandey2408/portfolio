@@ -3,8 +3,8 @@ import { Button } from "./ui/button"
 
 export function Home() {
   return (
-    <main className="flex flex-col py-4 space-y-2 h-full bg-transparent text-foreground items-center justify-center ">
-      <div className="absolute left-0 top-0 w-full h-full bg-gradient -z-10 blur-sm" />
+    <main className="flex flex-col py-4 space-y-2 h-full bg-transparent text-foreground items-center justify-center pt-20">
+      <div className="absolute left-0 top-0 w-full h-full  -z-10 blur-sm" />
       <div className="flex flex-col gap-y-8 items-center z-20 ">
         <div className="flex flex-col gap-y-2 items-center">
           <img 
@@ -23,7 +23,7 @@ export function Home() {
         <div className="flex flex-col gap-4 md:flex-row items-center space-x-4 justify-center">
         
           <a href={"https://utfs.io"} target="_blank">
-            <Button variant={"boldOutline"} size={"lg"} className="rounded-3xl">
+            <Button variant={"default"} size={"lg"} className="rounded-3xl">
               View my resume &rarr;
             </Button>
           </a>
