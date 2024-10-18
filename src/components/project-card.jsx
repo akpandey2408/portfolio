@@ -13,31 +13,13 @@ const projects = [
   {
     title: "Portfolio",
     description: "Personal portfolio website",
-    href: "https://platinumj.dev",
+    href: "https://adamya.vercel.app",
     imageURL:
       "https://utfs.io/f/afa57efc-bf9e-4a68-ae39-e12481e35992-iiqo62.png",
 
-    tags: ["nextjs", "typescript", "tailwindcss", "react", "markdown"],
+    tags: ["typescript", "tailwindcss", "react", "markdown"],
     detailedDescription:
-      "Personal portfolio website andblog platform built using Next.js, TypeScript, TailwindCSS, and React.",
-  },
-  {
-    title: "Snapsite",
-    description: "Professional archiving tool for the web",
-    href: "https://snapsite-ui.vercel.app",
-    tags: [
-      "nextjs",
-      "typescript",
-      "tailwindcss",
-      "nodejs",
-      "sql",
-      "react",
-      "javascript",
-    ],
-    imageURL:
-      "https://utfs.io/f/afa57efc-bf9e-4a68-ae39-e12481e35992-iiqo62.png",
-    detailedDescription:
-      "Snapsite is a professional archiving tool for the web. It allows users to archive web pages and view them later. It is built using Next.js, TypeScript, TailwindCSS, Node.js, SQL, React, and JavaScript.",
+      "Personal portfolio website and blog platform built using Vite.js, TypeScript, TailwindCSS, and React.",
   },
   {
     title: "Universe",
@@ -58,11 +40,10 @@ const projects = [
       "Universe is a social media platform based chatbot for college students. With fully customizable chatbot based on RAG and GPT3.5. It is built using Next.js, JavaScript, TailwindCSS, SQL, React, JavaScript, and Prisma.",
   },
   {
-    title: "Re-Twitch",
-    description: "A live streaming clone of Twitch.",
-    href: "https://re-twitch.vercel.app",
+    title: "News Monkey",
+    description: "A news-app built for simplicity and categorized news.",
+    href: "https://",
     tags: [
-      "nextjs",
       "typescript",
       "tailwindcss",
       "nodejs",
@@ -73,7 +54,7 @@ const projects = [
     imageURL:
       "https://utfs.io/f/2dfeeeb7-b9f5-4aef-85ac-22507e10d36d-wmljsp.png",
     detailedDescription:
-      "Re-Twitch is a live streaming clone of Twitch. It is built using Next.js, TypeScript, TailwindCSS, Node.js, SQL, React, and JavaScript.",
+      "A news viewer application built using Gnews APIs to allow latest news insights, on your feed",
   },
 ];
 
@@ -198,7 +179,6 @@ function ProjectComponent({
       <CardHeader>
         <CardTitle className="relative justify-between flex w-full flex-row">
           <p className="text-xl font-bold">{title}</p>
-          
         </CardTitle>
         <CardDescription className="space-y-4">{description}</CardDescription>
       </CardHeader>

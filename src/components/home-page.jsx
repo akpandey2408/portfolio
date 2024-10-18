@@ -32,7 +32,7 @@ export function Home() {
               See my work &rarr;
             </Button>
           </a>
-          <a href={"https://utfs.io"} target="_blank">
+          <a href={"https://utfs.io/f/LFq4wqmLqN4U3Q0KbajRWc4gDhynYSlzetQ7LXoIG8wsBAbU"} target="_blank">
             <Button variant={"boldOutline"} size={"lg"} className="rounded-3xl">
               View my resume &rarr;
             </Button>

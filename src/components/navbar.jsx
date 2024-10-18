@@ -8,7 +8,7 @@ const navItems = [
 
   { newTab: false, href: "/", label: "Home" },
   { newTab: false, href: "/projects", label: "Projects" },
-  { newTab: false, href: "https://utfs.io/f/LFq4wqmLqN4UnjeQFUEhbkLOlRUsHmWtXFwfevi7pxIuhcCy", label: "Resume" }
+  { newTab: false, href: "https://utfs.io/f/LFq4wqmLqN4U3Q0KbajRWc4gDhynYSlzetQ7LXoIG8wsBAbU", label: "Resume" }
 ];
 
 export const Navbar = () => {
